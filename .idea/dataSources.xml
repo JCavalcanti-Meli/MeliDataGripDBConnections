@@ -22,5 +22,12 @@
       <jdbc-url>jdbc:mysql://proxysql.master.meliseginf.com:6612/ootrpstage</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="OOT - LOCALHOST" uuid="91265b28-20f0-4f8a-96b8-043bcf535513">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3399/ootMysqlDb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
