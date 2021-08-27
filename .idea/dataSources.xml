@@ -9,7 +9,7 @@
       <jdbc-url>jdbc:mysql://proxysql.master.meliseginf.com:6612/ootrprtprd</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="OOT - Desenvolvimento" read-only="true" uuid="4477a47c-1fa0-4c48-8811-34eb4c6ff53d">
+    <data-source source="LOCAL" name="OOT - Desenvolvimento" uuid="4477a47c-1fa0-4c48-8811-34eb4c6ff53d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
